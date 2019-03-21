@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{text-align: center;
+background-color: skyblue;
+line-height: 60px}
+.content{
+margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+;
+    background-image: url(image/bg.jpg);
+    padding: 10px;
+
+
+
+
+}
+.text{
+width: 280px;
+height: 30px;}
+.search{
+width: 100px;
+height: 34px;
+}
+.we{color: slateblue;
+margin-left: 20px;
+margin-top: 20px;
+
+}
+.image{  width: 380px;
+margin-left: 10px;
+margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+p{
+    color: #333;
+    padding: 5px;
+}
+
+.homework{margin-top: 15px}

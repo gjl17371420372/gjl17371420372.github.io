@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="../css/个人中心.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+
+</head>
+<body>
+    <div class="title">
+  
+        
+    </div >
+    
+    <div class="nav">
+        <div class="nav-wrap">
+            <div class="nav-left">
+                
+                    <img src="../image/location.png" alt="">
+               
+                <span>
+                      深圳
+                    </span>
+                    <a href="#"><切换></a>
+    
+    
+            </div>
+            <div class="nav-mid">
+                <div class="mid-in">
+                <a href="homedoctor.html" class="shouye">首页</a>
+                <a href="#" class="zixun">资讯</a>
+                <a href="#" class="ceping">测评</a>
+                <a href="#" class="shangcheng">商城</a>
+                 </div>
+            </div>
+            <div class="nav-right">
+                <img src="../image/adm.png" alt="">
+                <a href="#">个人中心</a>
+            </div>
+    
+        </div>
+    </div>
+
+<div class="content">
+    <div class="content-left">
+        <div class="admincenter">
+            <li class="click">
+            <a  href="用户中心首页.html" target="frame">用户中心首页</a>
+        </li>
+        </div>
+        <div class="jiance">
+                <ul>
+                        <li class="head">我的检测</li>
+                        <li>上门检测</li>
+                        <li>DIY 检测</li>
+                    </ul>
+        </div>
+        <div class="zhili">
+            <ul>
+                    <li class="head">我的治理</li>
+                    <li>上门治理</li>
+            </ul>
+        </div>
+        <div class="zhuangxiu">
+                <ul>
+                <li class="head">我的装修</li>
+                <li>装修方案</li>
+            </ul>
+        </div>
+        <div class="shoucang">
+                <ul>
+                        <li class="head">我的收藏</li>
+                        <li>装修材料</li>
+                        <li>净化产品</li>
+                        <li>资讯</li>
+                        <li>测评</li>
+                    </ul>
+        </div>
+        <div class="ziliao">
+                <ul>
+                        <li class="head">个人资料</li>
+                        <li>个人资料</li>
+                        <li >修改密码</li>
+                        <li ><a class="bangding" href="绑定手机.html" target="frame">绑定手机\微信</a></li>
+                   
+                    </ul>
+        </div>
+        <div class="jifen">
+                <ul>
+                        <li class="head">积分管理</li>
+                        <li>积分互换</li>
+                        <li>积分等级</li>
+                        <li>积分任务</li>
+                   
+                    </ul>
+        </div>
+        
+
+
+    </div>
+    <div class="content-right">
+        <iframe src="用户中心首页.html" frameborder="0" name="frame"></iframe>
+    </div>
+</div>
+<script>
+//     $(".admincenter>a").click(function() {
+// $(this).css("color","#7ED5D5");
+// $(".ziliao a").css("color","#898989");
+//   });
+
+
+//   $(".ziliao a").click(function() {
+// $(this).css("color","#7ED5D5")
+// $(".admincenter>a").css("color","#898989");
+
+//   });
+
+
+
+
+  $(".content-left li").click(function() {
+    $(".click").removeClass("click");
+  $(this).addClass("click");
+
+  });
+
+
+
+</script>
+</body>
+</html>

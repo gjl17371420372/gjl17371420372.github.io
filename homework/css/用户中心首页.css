@@ -1,0 +1,62 @@
+.user{
+   
+    float: left;
+    color: #333;
+    height: 145px;
+    width: 362px;
+    background: url("../image/user.png") no-repeat 43px 20px;
+}
+.line{
+    margin-top: 40px;
+    float: left;
+    width: 1px;
+    height: 80px;
+    border-right: 1px solid #898989;
+}
+.bind{
+    float: left;
+    height: 145px;
+    width: 400px;
+}
+.user>p{
+    margin-left: 162px;
+    margin-top: 32px
+}
+.user>p.message{
+    margin-top: 5px
+}
+.user>p.point{
+    margin-top: 20px;
+}
+.user-name{
+    font-size: 20px;
+}
+
+.bind{
+    position: relative;
+}
+.wx{
+    position: absolute;
+    top: 53px;
+    left: 30px
+}
+.user_wx{
+    position: absolute;
+    top: 53px;
+    left: 82px
+}
+.sj{
+    position: absolute;
+    top: 53px;
+    left: 220px;
+}
+.user_sj{
+    position: absolute;
+    top: 53px;
+    left: 270px;
+}
+
+.bind a{
+    text-decoration: none;
+    color: #1AC0C0
+}
