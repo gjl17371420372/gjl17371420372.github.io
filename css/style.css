@@ -72,9 +72,14 @@ hr.line-2{background: #333;max-width: 40px;height: 4px;}
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
-html, body {width:100%; padding:0; margin:0;}
+html, body {width:100%;padding:0; margin:0;margin-left: auto;
+margin-right: auto;}
 body {font: 14px/25px Arial, Helvetica, sans-serif;font-family: "Lato",sans-serif;background: #fff;}
-
+.wrap-body{
+	width: 1400px ;
+	margin: 0 auto;
+	
+}
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------index--------------------------------- */
@@ -83,6 +88,7 @@ header{text-align: center;background: #fff;
 }
 
 .owl-carousel{
+	width: 1400px;
     margin-top: 15px
 }
 .item>img{
@@ -98,7 +104,7 @@ header{text-align: center;background: #fff;
 /* -------------------------------------index.Container------------------------------ */
 /* ---------------------------------------------------------------------------- */
 .information{
-    width: 1400px;
+    width: 100%;
     height: 300px;
     border: gray solid 1px;
     margin:auto;
@@ -152,7 +158,7 @@ header{text-align: center;background: #fff;
 
 /* ---MainContent-Article--- */
 #main-content{}
-#main-content .wrap-content{padding: 30px 0;}
+#main-content .wrap-content{}
 
 .single-post{}
 .single-post .wrap-post, .comments-are {background: #f6f6f6;padding:30px; position: relative;margin: 50px 0 ;}
@@ -185,7 +191,7 @@ article .entry-content ol {float: left;text-align: justify;margin: 10px 50px;fon
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Footer--------------------------------- */
 /* ---------------------------------------------------------------------------- */
-footer{text-align: center;padding: 40px 0;border-top: 1px solid #bbb;margin-top: 40px;}
+footer{width:1400px;text-align: center;padding: 40px 0;border-top: 1px solid #bbb;margin-top: 40px;}
 footer a{color:#444;font-weight: bold;}
 footer a:hover{color:#000;}
 footer .wrap-footer{color: #92907C;}
@@ -203,7 +209,10 @@ footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
 
 #ff .sendButton , .sendButton {cursor:pointer;background-color:#575756;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;width:100px;color:#ffffff;}
 #ff .sendButton:hover ,  .sendButton:hover{opacity: 0.8;}
-
+#container{
+	width: 1400px;
+	text-align: center;
+}
 .t-center{
     margin-top: 15px
 }
@@ -293,7 +302,7 @@ a.button:hover{background-color: #eee;color: #333;}
 /* homework */
 
 .s-buttom{
-    width: 100%;
+    width: 1400px;
     height: 560px;
     background: url("../images/homeworkbg.jpg") no-repeat;
     margin-top: 30px
@@ -372,7 +381,7 @@ a.button:hover{background-color: #eee;color: #333;}
 .game1{
     margin-top: 40px;
     height: 550px;
-    width: 100%;
+    width: 1400px;
     background:		#F5F5F5
 }
 .game1-title{
@@ -473,6 +482,7 @@ color: red
 
 
 .game2{
+	width:1400px;
     height: 600px;
 }
 .game2-title{
@@ -483,6 +493,7 @@ color: red
     
 }
 .game3{
+	width:1400px;
     height: 600px;
     background:		#F5F5F5
 }
